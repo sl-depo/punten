@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.x2nie.punten_1.0.0.201412142025.jar" id="com.x2nie.punten" version="1.0.0.201412142025">
+      <category name="ide_category"/>
+   </feature>
+   <feature url="features/org.python.pydev.feature_3.9.0.201412142015.jar" id="org.python.pydev.feature" version="3.9.0.201412142015">
+      <category name="tools_category"/>
+   </feature>
+   <feature url="features/org.python.pydev.mylyn.feature_0.4.0.jar" id="org.python.pydev.mylyn.feature" version="0.4.0">
+      <category name="tools_category"/>
+   </feature>
+   <category-def name="ide_category" label="IDE">
+      <description>
+         Eclipse based Integrated Development Environment
+      </description>
+   </category-def>
+   <category-def name="tools_category" label="Tools"/>
+</site>
