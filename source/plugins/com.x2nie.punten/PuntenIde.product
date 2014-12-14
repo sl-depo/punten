@@ -21,7 +21,6 @@
 
    <windowImages/>
 
-
    <launcher name="Punten">
       <solaris/>
       <win useIco="false">
@@ -32,7 +31,6 @@
 
    <vm>
    </vm>
-
 
    <plugins>
    </plugins>
@@ -55,8 +53,16 @@
       <feature id="org.eclipse.equinox.p2.user.ui"/>
       <feature id="org.eclipse.equinox.p2.extras.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
-      <feature id="org.python.pydev.feature" version="3.9.0.qualifier"/>
+      <feature id="org.eclipse.epp.mpc" version="1.3.1.v20140908-1651"/>
+      <feature id="org.eclipse.equinox.p2.discovery.feature"/>
    </features>
 
+
+   <repositories>
+      <repository location="http://pydev.org/updates" enabled="true" />
+      <repository location="http://download.eclipse.org/eclipse/updates/4.4" enabled="true" />
+      <repository location="http://jeeeyul.github.io/update/" enabled="true" />
+      <repository location="http://download.eclipse.org/releases/luna" enabled="true" />
+   </repositories>
 
 </product>
