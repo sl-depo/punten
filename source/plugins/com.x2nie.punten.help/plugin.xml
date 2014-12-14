@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.intro">
+      <!--intro
+            class="org.eclipse.ui.intro.config.CustomizableIntroPart"
+            id="com.x2nie.punten.help.intro">
+      </intro>
+      <introProductBinding
+            introId="com.x2nie.punten.help.intro"
+            productId="com.x2nie.punten.product">
+      </introProductBinding-->
+      <introProductBinding
+            introId="org.eclipse.ui.intro.universal"
+            productId="com.x2nie.punten.product">
+      </introProductBinding>
+   </extension>
+
+</plugin>
