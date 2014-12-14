@@ -7,19 +7,46 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.ui.ide.workbench"
-            name="Punten IDE Development Tools">
+            name="Punten IDE">
          <property
                name="preferenceCustomization"
                value="plugin_customization.ini">
          </property>
          <property
                name="appName"
-               value="Punten IDE Development Tools">
+               value="Punten IDE">
          </property>
          <property
-               name="aboutText"
-               value="%productDescription">
+               name="aboutImage"
+               value="icons/smart-about.png">
          </property>
+         <property
+               name="windowImages"
+               value="icons/smart_16x16.png,icons/smart_32x32.png,icons/smart_64x64.png">
+         </property>
+         <property
+               name="introTitle"
+               value="%productIntroTitle">
+         </property>
+         <property
+          		name="introBrandingImage"
+          		value="product:intro-eclipse.png"/>
+          <property
+          		name="introBrandingImageText"
+          		value="%productIntroBrandingText"/>
+		  <property
+				name="introDescription-overview"
+				value="%introDescription-overview"/>
+		  <property
+				name="introDescription-tutorials"
+				value="%introDescription-tutorials"/>
+		  <property
+				name="introDescription-samples"
+				value="%introDescription-samples"/>
+    <property
+          name="aboutText"
+          value="%productBlurb">
+    </property>
       </product>
    </extension>
 

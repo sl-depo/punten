@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Punten IDE Development Tools" id="com.x2nie.punten.product" application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Punten IDE" id="com.x2nie.punten.product" application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
+      <image path="/com.x2nie.punten/icons/smart-about.png"/>
       <text>
-         %productDescription
+         %productBlurb
       </text>
    </aboutInfo>
 
@@ -19,24 +20,28 @@
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages/>
+   <windowImages i16="/com.x2nie.punten/icons/smart_16x16.png" i32="/com.x2nie.punten/icons/smart_32x32.png" i64="/com.x2nie.punten/icons/smart_64x64.png"/>
+
 
    <launcher name="Punten">
       <solaris/>
-      <win useIco="false">
+      <win useIco="true">
+         <ico path="/com.x2nie.punten/icons/favicon.ico"/>
          <bmp/>
       </win>
    </launcher>
 
+   <intro introId="com.x2nie.punten.help.intro"/>
 
    <vm>
    </vm>
+
 
    <plugins>
    </plugins>
 
    <features>
-      <feature id="org.eclipse.platform" version="4.4.0.v20140925-0400"/>
+      <feature id="org.eclipse.platform"/>
       <feature id="com.x2nie.punten" version="1.0.0.qualifier"/>
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.feature"/>
