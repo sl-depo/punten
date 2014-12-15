@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="com.x2nie.punten"
-      label="Punten-feature"
+      label="%featureName"
       version="1.0.0.qualifier"
-      provider-name="X2NIE"
+      provider-name="%providerName"
       plugin="com.x2nie.punten">
 
    <description url="https://github.com/sl-depo/punten">
@@ -116,13 +116,6 @@ This Agreement is governed by the laws of the State of New York and the intellec
          download-size="0"
          install-size="0"
          version="0.0.0"/>
-
-   <plugin
-         id="com.x2nie.punten.help"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
    <plugin
          id="com.x2nie.punten.help"
