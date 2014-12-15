@@ -20,6 +20,10 @@
                name="aboutImage"
                value="icons/smart-about.png">
          </property>
+    <property
+          name="aboutText"
+          value="%productBlurb">
+    </property>
          <property
                name="windowImages"
                value="icons/smart_16x16.png,icons/smart_32x32.png,icons/smart_64x64.png">
@@ -43,10 +47,6 @@
 		  <property
 				name="introDescription-samples"
 				value="%introDescription-samples"/>
-    <property
-          name="aboutText"
-          value="%productBlurb">
-    </property>
       </product>
    </extension>
 
