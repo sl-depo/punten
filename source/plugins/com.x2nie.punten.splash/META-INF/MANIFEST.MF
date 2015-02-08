@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Splash
+Bundle-SymbolicName: com.x2nie.punten.splash;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.x2nie.punten.splash.Activator
+Bundle-Vendor: X2NIE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.ui.workbench
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

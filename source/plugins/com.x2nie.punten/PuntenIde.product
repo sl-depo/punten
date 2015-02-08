@@ -14,7 +14,7 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>-clearPersistedState
+      <programArgs>-clearPersistedStatez -cssTheme org.eclipse.e4.ui.css.theme.e4_default.xpblu
       </programArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
@@ -22,7 +22,8 @@
 
    <windowImages i16="/com.x2nie.punten/icons/smart_16x16.png" i32="/com.x2nie.punten/icons/smart_32x32.png" i64="/com.x2nie.punten/icons/smart_64x64.png"/>
 
-
+   <splash
+      location="com.x2nie.punten.splash" />
    <launcher name="Punten">
       <solaris/>
       <win useIco="true">
@@ -35,6 +36,7 @@
 
    <vm>
    </vm>
+
 
    <plugins>
    </plugins>
@@ -59,7 +61,6 @@
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
       <feature id="org.eclipse.epp.mpc" version="1.3.1.v20140908-1651"/>
       <feature id="org.eclipse.equinox.p2.discovery.feature"/>
-      <feature id="org.python.pydev.feature" version="3.9.0.qualifier"/>
    </features>
 
 
