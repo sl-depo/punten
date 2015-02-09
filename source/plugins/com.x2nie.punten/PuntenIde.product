@@ -27,7 +27,7 @@
    <launcher name="Punten">
       <solaris/>
       <win useIco="true">
-         <ico path="/com.x2nie.punten/icons/favicon.ico"/>
+         <ico path="/com.x2nie.punten/icons/punten.ico"/>
          <bmp/>
       </win>
    </launcher>
