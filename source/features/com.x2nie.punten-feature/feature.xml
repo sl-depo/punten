@@ -111,11 +111,10 @@ This Agreement is governed by the laws of the State of New York and the intellec
       <discovery label="Pydev" url="http://pydev.org/updates"/>
    </url>
 
-   <plugin
-         id="com.x2nie.punten"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+   </requires>
 
    <plugin
          id="com.x2nie.punten.help"
@@ -125,7 +124,7 @@ This Agreement is governed by the laws of the State of New York and the intellec
          unpack="false"/>
 
    <plugin
-         id="com.x2nie.punten.splash"
+         id="com.x2nie.punten"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
